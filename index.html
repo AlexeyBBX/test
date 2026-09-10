@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">МойСайт</div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Добро пожаловать!</h1>
+            <p>Мы создаём удивительные вещи</p>
+            <button id="ctaButton">Узнать больше</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О нас</h2>
+            <p>Мы — команда энтузиастов, которые любят создавать качественные продукты.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Наши услуги</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Веб-разработка</h3>
+                    <p>Создание современных сайтов</p>
+                </div>
+                <div class="card">
+                    <h3>Дизайн</h3>
+                    <p>Красивый и удобный интерфейс</p>
+                </div>
+                <div class="card">
+                    <h3>Консультации</h3>
+                    <p>Помощь в развитии вашего бизнеса</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Контакты</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" rows="4" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 МойСайт. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
